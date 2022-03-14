@@ -25,7 +25,7 @@ pipeline {
       }
      }
      steps {
-      sh 'mvn clean'
+      sh 'mvn compile'
      }
     }
  }
